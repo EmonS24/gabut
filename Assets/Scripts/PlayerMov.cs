@@ -36,7 +36,7 @@ public class PlayerMov : MonoBehaviour
 
     private void Jump()
     {
-        rb.velocity = new Vector2(rb.velocity.x, jumpForce);;
+        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         anim.SetTrigger("jump");
         grounded = false;
     }
